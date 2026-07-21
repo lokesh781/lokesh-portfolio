@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokesh Kumar — Front-End Developer</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="s.css">
+    <script>
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.classList.add('dark-theme');
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#home" class="logo">L. Kumar</a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">Dark</button>
+                <button class="nav-toggle" id="navToggle" aria-label="menu">Menu</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- hero -->
+    <section class="hero" id="home">
+        <div class="container">
+            <p class="masthead" data-aos="fade-up">Vol. 01 — Mohali, India — Front-End Developer</p>
+            <h1 data-aos="fade-up" data-aos-delay="100">
+                Lokesh<br>Kumar.
+            </h1>
+            <div class="hero-bottom" data-aos="fade-up" data-aos-delay="200">
+                <p class="hero-desc">
+                    I build interfaces people enjoy using — three years turning UI/UX
+                    designs into responsive, high-performance web apps with React.js,
+                    clean CSS architecture, and solid API integrations.
+                </p>
+                <div class="hero-links">
+                    <a href="#projects" class="link-arrow">See the work →</a>
+                    <a href="#contact" class="link-arrow">Get in touch →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="container">
+            <p class="index-label" data-aos="fade-up">01 — About</p>
+            <div class="about-body">
+                <p class="drop-cap" data-aos="fade-up">
+                    I'm an innovative and detail-oriented front-end developer with three
+                    years of experience building highly responsive, user-centric web
+                    applications. I work mainly with React.js, Tailwind and Bootstrap
+                    for styling, and WordPress or Webflow when a project calls for a CMS.
+                </p>
+                <p data-aos="fade-up" data-aos-delay="100">
+                    What I enjoy most is taking a complex UI/UX design and turning it
+                    into something that actually feels good to use — fast, accessible,
+                    and consistent across every browser and device.
+                </p>
+            </div>
+            <div class="about-meta" data-aos="fade-up" data-aos-delay="150">
+                <div>
+                    <span class="meta-label">Location</span>
+                    <span class="meta-value">Mohali, Punjab, India</span>
+                </div>
+                <div>
+                    <span class="meta-label">Email</span>
+                    <a href="mailto:lokeshatter@gmail.com" class="meta-value">lokeshatter@gmail.com</a>
+                </div>
+                <div>
+                    <span class="meta-label">Phone</span>
+                    <a href="tel:+918278876899" class="meta-value">+91 82788 76899</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <p class="index-label" data-aos="fade-up">02 — Skills</p>
+            <h2 data-aos="fade-up">What I work with</h2>
+
+            <div class="skills-list">
+                <div class="skills-row" data-aos="fade-up">
+                    <span class="skills-cat">Core Languages</span>
+                    <span class="skills-items">JavaScript (ES6+), HTML5, CSS3</span>
+                </div>
+                <div class="skills-row" data-aos="fade-up" data-aos-delay="50">
+                    <span class="skills-cat">Frameworks & Libraries</span>
+                    <span class="skills-items">React.js, Tailwind CSS, Bootstrap, jQuery</span>
+                </div>
+                <div class="skills-row" data-aos="fade-up" data-aos-delay="100">
+                    <span class="skills-cat">CMS & Builders</span>
+                    <span class="skills-items">WordPress, Webflow, Squarespace</span>
+                </div>
+                <div class="skills-row" data-aos="fade-up" data-aos-delay="150">
+                    <span class="skills-cat">Concepts & Tools</span>
+                    <span class="skills-items">Responsive Design, REST API Integration, Cross-Browser Compatibility,
+                        Performance Optimization</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- experience -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <p class="index-label" data-aos="fade-up">03 — Experience</p>
+            <h2 data-aos="fade-up">Where I've worked</h2>
+
+            <div class="exp-entry" data-aos="fade-up">
+                <div class="exp-head">
+                    <h3>Front-End Developer</h3>
+                    <span class="exp-date">Dec 2022 — Present</span>
+                </div>
+                <p class="exp-company">Sagmetic Infotech Private Limited, Mohali</p>
+                <ul class="exp-list">
+                    <li>Architected and maintained highly responsive, mobile-first web applications.</li>
+                    <li>Built reusable, modular UI components with React.js, reducing future dev time.</li>
+                    <li>Integrated RESTful APIs for dynamic data rendering and async state management.</li>
+                    <li>Collaborated with backend developers and UI/UX designers on wireframes and prototypes.</li>
+                    <li>Optimized app architecture for speed, fixed usability bugs, ensured cross-browser support.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <p class="index-label" data-aos="fade-up">04 — Projects</p>
+            <h2 data-aos="fade-up">A few things I've built</h2>
+
+            <div class="project-index">
+                <a href="https://dropshipacademyx.nl" target="_blank" class="project-row" data-aos="fade-up">
+                    <span class="project-no">01</span>
+                    <span class="project-title">Dropship Academy X Platform</span>
+                    <span class="project-desc">E-learning and networking platform for dropshipping education. Built the
+                        dynamic frontend architecture and state management.</span>
+                    <span class="project-go">dropshipacademyx.nl →</span>
+                </a>
+                <a href="https://near-human.vercel.app" target="_blank" class="project-row" data-aos="fade-up"
+                    data-aos-delay="50">
+                    <span class="project-no">02</span>
+                    <span class="project-title">Near Human</span>
+                    <span class="project-desc">Interactive web app focused on smooth animations and advanced UI
+                        concepts, built with React.js.</span>
+                    <span class="project-go">near-human.vercel.app →</span>
+                </a>
+                <a href="https://fcookie.vercel.app" target="_blank" class="project-row" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <span class="project-no">03</span>
+                    <span class="project-title">FCookie Web App</span>
+                    <span class="project-desc">Lightweight, high-performance interface built from strict UI/UX mockups
+                        with fast load times.</span>
+                    <span class="project-go">fcookie.vercel.app →</span>
+                </a>
+                <a href="#" class="project-row" data-aos="fade-up" data-aos-delay="150">
+                    <span class="project-no">04</span>
+                    <span class="project-title">Vertiqo-K Enterprise Landing Page</span>
+                    <span class="project-desc">Corporate landing page with semantic HTML5 and a pixel-perfect, fully
+                        responsive grid layout.</span>
+                    <span class="project-go">View demo →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="container" data-aos="fade-up">
+            <p class="index-label">05 — Contact</p>
+            <h2 class="contact-line">Let's build<br>something together.</h2>
+            <a href="mailto:lokeshatter@gmail.com" class="contact-email">lokeshatter@gmail.com</a>
+            <p class="contact-phone">or call +91 82788 76899</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Lokesh Kumar, Mohali</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="s.js"></script>
+</body>
+
+</html>
